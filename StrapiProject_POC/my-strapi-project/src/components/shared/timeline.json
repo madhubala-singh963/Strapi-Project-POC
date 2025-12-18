@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_timelines",
+  "info": {
+    "displayName": "Timeline"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "component",
+      "component": "shared.solver",
+      "repeatable": true
+    },
+    "name": {
+      "type": "blocks"
+    },
+    "position": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

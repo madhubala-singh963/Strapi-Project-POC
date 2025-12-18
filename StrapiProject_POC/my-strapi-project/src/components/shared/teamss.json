@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_teamsses",
+  "info": {
+    "displayName": "Teamss"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content": {
+      "type": "blocks"
+    },
+    "altText": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

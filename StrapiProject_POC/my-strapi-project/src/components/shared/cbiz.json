@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_cbizs",
+  "info": {
+    "displayName": "CBIZ"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "component": "shared.logo",
+      "repeatable": false
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "imagee": {
+      "type": "component",
+      "component": "shared.imagee",
+      "repeatable": true
+    },
+    "descriptioned": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

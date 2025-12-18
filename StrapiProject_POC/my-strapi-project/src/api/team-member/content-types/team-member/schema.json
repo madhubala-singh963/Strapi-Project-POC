@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_members",
+  "info": {
+    "singularName": "team-member",
+    "pluralName": "team-members",
+    "displayName": "TeamMember"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titles": {
+      "type": "blocks"
+    },
+    "Descriptions": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "component",
+      "component": "shared.teamss",
+      "repeatable": true
+    },
+    "images": {
+      "type": "component",
+      "component": "shared.logoss",
+      "repeatable": true
+    },
+    "name": {
+      "type": "blocks"
+    },
+    "position": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "responses",
+  "info": {
+    "singularName": "response",
+    "pluralName": "responses",
+    "displayName": "Response"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "PhoneNo": {
+      "type": "biginteger"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "isDeveloper": {
+      "type": "string"
+    },
+    "ContactReason": {
+      "type": "text"
+    }
+  }
+}

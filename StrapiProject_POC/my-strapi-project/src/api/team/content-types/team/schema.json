@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "teams",
+  "info": {
+    "singularName": "team",
+    "pluralName": "teams",
+    "displayName": "Team"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "Team": {
+      "type": "component",
+      "component": "shared.timeline",
+      "repeatable": true
+    }
+  }
+}

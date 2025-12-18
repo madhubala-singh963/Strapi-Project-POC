@@ -1,0 +1,14 @@
+{
+  "kind": "singleType",
+  "collectionName": "building_infos",
+  "info": {
+    "singularName": "building-info",
+    "pluralName": "building-infos",
+    "displayName": "BuildingInfo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

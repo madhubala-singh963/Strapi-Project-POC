@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "Payments"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tenant": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::article.article",
+      "inversedBy": "payments"
+    },
+    "Lease": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "lease"
+    },
+    "ForMonth": {
+      "type": "string"
+    },
+    "Amount": {
+      "type": "biginteger"
+    },
+    "DatePaid": {
+      "type": "datetime"
+    },
+    "Method": {
+      "type": "enumeration",
+      "enum": [
+        "cash",
+        "upi",
+        "bank",
+        "other"
+      ]
+    },
+    "Reciept": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Notes": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leases",
+  "info": {
+    "singularName": "lease",
+    "pluralName": "leases",
+    "displayName": "Lease"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "startDate": {
+      "type": "datetime"
+    },
+    "EndDate": {
+      "type": "datetime"
+    },
+    "RentAmount": {
+      "type": "biginteger"
+    },
+    "billingDayOfMonth": {
+      "type": "biginteger"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

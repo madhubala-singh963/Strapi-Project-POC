@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_sapros",
+  "info": {
+    "displayName": "SAPRO"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": true
+    },
+    "description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_csrs",
+  "info": {
+    "displayName": "CSR"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_awards",
+  "info": {
+    "displayName": "Award"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "logo": {
+      "type": "component",
+      "component": "shared.timeline",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

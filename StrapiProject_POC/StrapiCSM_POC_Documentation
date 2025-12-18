@@ -1,0 +1,4 @@
+1. In Strapi in user model you can't modify it.
+2. You need to create a new role and assign the permissions for that role
+3. Create a new user with this newly created role
+4. Now you will be able to see all the roles in your dropdown list while creating a new user.
